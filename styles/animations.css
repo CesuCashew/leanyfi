@@ -1,0 +1,621 @@
+/* ===================================
+   LEANYFI - Animations & Effects
+   Sad Boys / Vaporwave Aesthetic
+   =================================== */
+
+/* === Glitch Effect === */
+.glitch {
+    position: relative;
+    animation: glitchSkew 3s infinite;
+}
+
+.glitch::before,
+.glitch::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.glitch::before {
+    left: 2px;
+    text-shadow: -2px 0 var(--neon-pink);
+    clip: rect(44px, 450px, 56px, 0);
+    animation: glitchAnim 5s infinite linear alternate-reverse;
+}
+
+.glitch::after {
+    left: -2px;
+    text-shadow: -2px 0 var(--neon-blue);
+    clip: rect(44px, 450px, 56px, 0);
+    animation: glitchAnim2 5s infinite linear alternate-reverse;
+}
+
+@keyframes glitchAnim {
+    0% {
+        clip: rect(31px, 9999px, 94px, 0);
+    }
+
+    20% {
+        clip: rect(85px, 9999px, 40px, 0);
+    }
+
+    40% {
+        clip: rect(65px, 9999px, 73px, 0);
+    }
+
+    60% {
+        clip: rect(5px, 9999px, 17px, 0);
+    }
+
+    80% {
+        clip: rect(93px, 9999px, 56px, 0);
+    }
+
+    100% {
+        clip: rect(21px, 9999px, 62px, 0);
+    }
+}
+
+@keyframes glitchAnim2 {
+    0% {
+        clip: rect(65px, 9999px, 100px, 0);
+    }
+
+    20% {
+        clip: rect(45px, 9999px, 23px, 0);
+    }
+
+    40% {
+        clip: rect(12px, 9999px, 85px, 0);
+    }
+
+    60% {
+        clip: rect(78px, 9999px, 34px, 0);
+    }
+
+    80% {
+        clip: rect(3px, 9999px, 67px, 0);
+    }
+
+    100% {
+        clip: rect(90px, 9999px, 11px, 0);
+    }
+}
+
+@keyframes glitchSkew {
+    0% {
+        transform: skew(0deg);
+    }
+
+    10% {
+        transform: skew(0deg);
+    }
+
+    11% {
+        transform: skew(2deg);
+    }
+
+    12% {
+        transform: skew(0deg);
+    }
+
+    100% {
+        transform: skew(0deg);
+    }
+}
+
+/* === Pulse Animation === */
+.pulse {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.8;
+    }
+}
+
+/* === Slide Animations === */
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInDown {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* === Scale Animations === */
+@keyframes scaleIn {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes scaleOut {
+    from {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    to {
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+
+/* === Shake Animation === */
+@keyframes shake {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: translateX(-10px);
+    }
+
+    20%,
+    40%,
+    60%,
+    80% {
+        transform: translateX(10px);
+    }
+}
+
+/* === Correct Answer Pulse === */
+@keyframes correctPulse {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(78, 205, 196, 0.7);
+    }
+
+    50% {
+        transform: scale(1.05);
+        box-shadow: 0 0 0 10px rgba(78, 205, 196, 0);
+    }
+
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(78, 205, 196, 0);
+    }
+}
+
+/* === Bounce Animation === */
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+/* === Rotate Animation === */
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* === Float Animation === */
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+/* === Glow Pulse === */
+@keyframes glowPulse {
+
+    0%,
+    100% {
+        box-shadow: 0 0 5px var(--accent-purple),
+            0 0 10px var(--accent-purple),
+            0 0 15px var(--accent-purple);
+    }
+
+    50% {
+        box-shadow: 0 0 10px var(--accent-purple),
+            0 0 20px var(--accent-purple),
+            0 0 30px var(--accent-purple);
+    }
+}
+
+/* === Neon Flicker === */
+@keyframes neonFlicker {
+
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+        text-shadow:
+            0 0 5px var(--neon-pink),
+            0 0 10px var(--neon-pink),
+            0 0 20px var(--neon-pink),
+            0 0 40px var(--neon-pink);
+    }
+
+    20%,
+    24%,
+    55% {
+        text-shadow: none;
+    }
+}
+
+/* === VHS Distortion === */
+@keyframes vhsDistort {
+    0% {
+        transform: translateX(0);
+    }
+
+    10% {
+        transform: translateX(-2px);
+    }
+
+    20% {
+        transform: translateX(2px);
+    }
+
+    30% {
+        transform: translateX(-2px);
+    }
+
+    40% {
+        transform: translateX(2px);
+    }
+
+    50% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* === Chromatic Aberration === */
+.chromatic {
+    position: relative;
+}
+
+.chromatic::before,
+.chromatic::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: screen;
+    pointer-events: none;
+}
+
+.chromatic::before {
+    background: var(--neon-pink);
+    transform: translateX(-2px);
+    opacity: 0.3;
+}
+
+.chromatic::after {
+    background: var(--neon-blue);
+    transform: translateX(2px);
+    opacity: 0.3;
+}
+
+/* === Scanlines Effect === */
+.scanlines {
+    position: relative;
+}
+
+.scanlines::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: repeating-linear-gradient(0deg,
+            rgba(0, 0, 0, 0.15) 0px,
+            rgba(0, 0, 0, 0.15) 1px,
+            transparent 1px,
+            transparent 2px);
+    pointer-events: none;
+    animation: scanlineMove 8s linear infinite;
+}
+
+@keyframes scanlineMove {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(100%);
+    }
+}
+
+/* === Holographic Effect === */
+.holographic {
+    background: linear-gradient(45deg,
+            var(--accent-pink) 0%,
+            var(--accent-purple) 25%,
+            var(--accent-blue) 50%,
+            var(--accent-purple) 75%,
+            var(--accent-pink) 100%);
+    background-size: 200% 200%;
+    animation: holographicShift 3s ease infinite;
+}
+
+@keyframes holographicShift {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* === Fade Animations === */
+.fade-in {
+    animation: fadeIn 0.5s ease;
+}
+
+.fade-out {
+    animation: fadeOut 0.5s ease;
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+/* === Utility Animation Classes === */
+.animate-pulse {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.animate-bounce {
+    animation: bounce 1s infinite;
+}
+
+.animate-float {
+    animation: float 3s ease-in-out infinite;
+}
+
+.animate-rotate {
+    animation: rotate 2s linear infinite;
+}
+
+.animate-glow {
+    animation: glowPulse 2s ease-in-out infinite;
+}
+
+/* === Transition Classes === */
+.transition-all {
+    transition: all var(--transition-base);
+}
+
+.transition-fast {
+    transition: all var(--transition-fast);
+}
+
+.transition-slow {
+    transition: all var(--transition-slow);
+}
+
+/* === Hover Effects === */
+.hover-lift {
+    transition: transform var(--transition-base);
+}
+
+.hover-lift:hover {
+    transform: translateY(-4px);
+}
+
+.hover-glow:hover {
+    box-shadow: 0 0 20px rgba(167, 139, 250, 0.6);
+}
+
+.hover-scale:hover {
+    transform: scale(1.05);
+}
+
+/* === Loading Spinner === */
+.spinner {
+    width: 50px;
+    height: 50px;
+    border: 4px solid var(--glass-border);
+    border-top-color: var(--accent-purple);
+    border-radius: 50%;
+    animation: rotate 1s linear infinite;
+}
+
+/* === Progress Bar Animation === */
+.progress-animate {
+    animation: progressFill 1s ease-out forwards;
+}
+
+@keyframes progressFill {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: var(--progress-width);
+    }
+}
+
+/* === Confetti Effect === */
+@keyframes confetti-fall {
+    0% {
+        transform: translateY(-100vh) rotate(0deg);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(100vh) rotate(720deg);
+        opacity: 0;
+    }
+}
+
+.confetti {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: var(--accent-purple);
+    animation: confetti-fall 3s linear forwards;
+}
+
+/* === Star Burst === */
+@keyframes starBurst {
+    0% {
+        transform: scale(0) rotate(0deg);
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(2) rotate(180deg);
+        opacity: 0;
+    }
+}
+
+.star-burst {
+    animation: starBurst 0.8s ease-out forwards;
+}
+
+/* === Text Reveal === */
+@keyframes textReveal {
+    0% {
+        clip-path: inset(0 100% 0 0);
+    }
+
+    100% {
+        clip-path: inset(0 0 0 0);
+    }
+}
+
+.text-reveal {
+    animation: textReveal 1s ease-out forwards;
+}
+
+/* === Ripple Effect === */
+@keyframes ripple {
+    0% {
+        transform: scale(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(4);
+        opacity: 0;
+    }
+}
+
+.ripple {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.5);
+    animation: ripple 0.6s ease-out;
+}
+
+/* === Disable Animations on Reduced Motion === */
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
