@@ -63,20 +63,52 @@ class AudioPlayer {
 
                     // Determine start time AFTER metadata is available
                     if (startTime === null) {
-                        if (song.chorusStart !== undefined) {
-                            startTime = song.chorusStart;
-                            console.log('🎤 Chorus start:', startTime);
+                        // Use explicit chorus start if defined, but validate against duration if available
+                        const duration = this.audioElement.duration;
+                        const hasDuration = !isNaN(duration) && duration > 0 && duration !== Infinity;
+
+                        if (song.chorusStart !== undefined && song.chorusStart !== null) {
+                            if (!hasDuration || duration > song.chorusStart + this.playDuration) {
+                                startTime = song.chorusStart;
+                                console.log('🎤 Using defined chorus start:', startTime, 'seconds');
+                            } else {
+                                // If defined start is too late, adjust it
+                                startTime = Math.max(0, duration - this.playDuration - 5);
+                                console.log('⚠️ Defined start too late, adjusting to:', startTime, 'seconds');
+                            }
                         } else {
-                            const maxDuration = this.audioElement.duration || 30;
-                            const maxStart = Math.max(0, maxDuration - this.playDuration);
-                            startTime = Math.random() * maxStart;
+                            // Default to 40 seconds (typical chorus position)
+                            const DEFAULT_CHORUS_TIME = 40;
+
+                            if (!hasDuration || duration > DEFAULT_CHORUS_TIME + this.playDuration) {
+                                startTime = DEFAULT_CHORUS_TIME;
+                                console.log('🎤 Using default chorus start:', startTime, 'seconds');
+                            } else {
+                                // If song is too short, start earlier
+                                startTime = Math.max(0, duration - this.playDuration - 5);
+                                console.log('🎤 Song too short, starting at:', startTime, 'seconds');
+                            }
                         }
                     }
 
-                    // Set currentTime while audio is paused
-                    this.audioElement.currentTime = startTime;
-                    console.log('⏱️ Set time to:', startTime);
-                    resolve();
+                    // Set currentTime and wait for seek to complete
+                    if (startTime > 0) {
+                        console.log('⏱️ Setting audio start time to:', startTime, 'seconds');
+
+                        // Wait for the seek operation to complete
+                        const onSeeked = () => {
+                            this.audioElement.removeEventListener('seeked', onSeeked);
+                            console.log('✅ Seek completed, current time:', this.audioElement.currentTime, 'seconds');
+                            resolve();
+                        };
+
+                        this.audioElement.addEventListener('seeked', onSeeked, { once: true });
+                        this.audioElement.currentTime = startTime;
+                    } else {
+                        // No need to seek, start from beginning
+                        console.log('⏱️ Starting from beginning');
+                        resolve();
+                    }
                 };
 
                 const onError = (e) => {

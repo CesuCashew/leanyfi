@@ -77,13 +77,24 @@ class GameEngine {
             selectedSongs.forEach(song => {
                 const correctAlbum = song.album;
 
-                // Get wrong albums
-                const wrongAlbums = this.getRandomAlbums(correctAlbum, 3);
+                // Get wrong albums with their covers
+                const wrongAlbums = this.getRandomAlbumsWithCovers(correctAlbum, 2);
+
+                // Get the correct album info
+                const correctAlbumInfo = ALBUMS_DATABASE.find(a => a.name === correctAlbum);
 
                 // Combine and shuffle answers
                 const answers = this.shuffleArray([
-                    { text: correctAlbum, correct: true },
-                    ...wrongAlbums.map(album => ({ text: album, correct: false }))
+                    {
+                        text: correctAlbum,
+                        correct: true,
+                        albumCover: correctAlbumInfo ? correctAlbumInfo.cover : song.albumCover
+                    },
+                    ...wrongAlbums.map(album => ({
+                        text: album.name,
+                        correct: false,
+                        albumCover: album.cover
+                    }))
                 ]);
 
                 questions.push({
@@ -269,6 +280,14 @@ class GameEngine {
     getRandomAlbums(exclude, count) {
         const albums = [...new Set(ALBUMS_DATABASE.map(a => a.name))];
         const filtered = albums.filter(a => a !== exclude);
+        return this.shuffleArray(filtered).slice(0, count);
+    }
+
+    /**
+     * Helper: Get random albums with their cover images
+     */
+    getRandomAlbumsWithCovers(exclude, count) {
+        const filtered = ALBUMS_DATABASE.filter(a => a.name !== exclude);
         return this.shuffleArray(filtered).slice(0, count);
     }
 

@@ -62,22 +62,34 @@ class UIManager {
             button.className = 'answer-btn';
             button.dataset.index = index;
 
-            // Add album cover image
-            const img = document.createElement('img');
-            img.className = 'answer-album-cover';
-            img.src = answer.song.albumCover || ''; // Empty if no cover
-            img.alt = answer.text;
-            img.onerror = () => {
-                // Hide image if it fails to load
-                img.style.display = 'none';
-            };
+            // Determine album cover source based on question type
+            let albumCoverSrc = '';
+            if (question.type === 'song' && answer.song) {
+                // Song recognition mode - use song's album cover
+                albumCoverSrc = answer.song.albumCover || '';
+            } else if (question.type === 'album' && answer.albumCover) {
+                // Album recognition mode - use album cover from answer
+                albumCoverSrc = answer.albumCover;
+            }
 
-            // Add song title
+            // Add album cover image if available
+            if (albumCoverSrc) {
+                const img = document.createElement('img');
+                img.className = 'answer-album-cover';
+                img.src = albumCoverSrc;
+                img.alt = answer.text;
+                img.onerror = () => {
+                    // Hide image if it fails to load
+                    img.style.display = 'none';
+                };
+                button.appendChild(img);
+            }
+
+            // Add answer text (song title or album name)
             const title = document.createElement('div');
             title.className = 'answer-title';
             title.textContent = answer.text;
 
-            button.appendChild(img);
             button.appendChild(title);
             answersGrid.appendChild(button);
         });

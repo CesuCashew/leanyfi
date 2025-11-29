@@ -5,7 +5,9 @@
       "WebSearch",
       "WebFetch(domain:www.discogs.com)",
       "WebFetch(domain:en.wikipedia.org)",
-      "WebFetch(domain:archive.org)"
+      "WebFetch(domain:archive.org)",
+      "Bash(find:*)",
+      "Bash(node:*)"
     ],
     "deny": [],
     "ask": []

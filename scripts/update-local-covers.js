@@ -21,6 +21,7 @@ const ALBUM_COVERS = {
     'First Class - Single': 'assets/images/albums/first_class.jpg',
     'True Love - Single': 'assets/images/albums/true_love.jpg',
     'Opium Dreams - Single': 'assets/images/albums/opium_dreams.jpg',
+    'Chandelier - Single': 'assets/images/albums/chandelier.jpg',
     'Unknown Death 2002': 'https://ia800305.us.archive.org/6/items/Yung_Lean_-_Unknown_Death_2002/cover.jpg',
     'Unknown Memory': 'https://archive.org/download/mbid-2f6fffcd-92a4-4d48-9518-b5e4c757c179/mbid-2f6fffcd-92a4-4d48-9518-b5e4c757c179-29542834817_itemimage.jpg'
 };

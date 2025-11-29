@@ -26,8 +26,7 @@ const SONGS_DATABASE = {
             year: 2013,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Ginseng Strip 2002.mp3',
-            albumCover: 'https://ia800305.us.archive.org/6/items/Yung_Lean_-_Unknown_Death_2002/cover.jpg',
-            chorusStart: 30, // Chorus/hook starts at 0:30
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -38,8 +37,7 @@ const SONGS_DATABASE = {
             year: 2013,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Kyoto.mp3',
-            albumCover: 'https://ia800305.us.archive.org/6/items/Yung_Lean_-_Unknown_Death_2002/cover.jpg',
-            chorusStart: 35, // Chorus starts at 0:35
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -50,8 +48,7 @@ const SONGS_DATABASE = {
             year: 2014,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Yoshi City.mp3',
-            albumCover: 'https://archive.org/download/mbid-2f6fffcd-92a4-4d48-9518-b5e4c757c179/mbid-2f6fffcd-92a4-4d48-9518-b5e4c757c179-29542834817_itemimage.jpg',
-            chorusStart: 40, // Chorus starts at 0:40
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -63,8 +60,7 @@ const SONGS_DATABASE = {
             year: 2013,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Welcome 2 Unknown Death_spotdown.org.mp3',
-            albumCover: 'https://ia800305.us.archive.org/6/items/Yung_Lean_-_Unknown_Death_2002/cover.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -75,8 +71,7 @@ const SONGS_DATABASE = {
             year: 2013,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Nitevision_spotdown.org.mp3',
-            albumCover: 'https://ia800305.us.archive.org/6/items/Yung_Lean_-_Unknown_Death_2002/cover.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -87,8 +82,7 @@ const SONGS_DATABASE = {
             year: 2013,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Oceans 2001_spotdown.org.mp3',
-            albumCover: 'https://ia800305.us.archive.org/6/items/Yung_Lean_-_Unknown_Death_2002/cover.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -99,8 +93,7 @@ const SONGS_DATABASE = {
             year: 2013,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Gatorade_spotdown.org.mp3',
-            albumCover: 'https://ia800305.us.archive.org/6/items/Yung_Lean_-_Unknown_Death_2002/cover.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -111,8 +104,7 @@ const SONGS_DATABASE = {
             year: 2013,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Hurt_spotdown.org.mp3',
-            albumCover: 'https://ia800305.us.archive.org/6/items/Yung_Lean_-_Unknown_Death_2002/cover.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -123,8 +115,7 @@ const SONGS_DATABASE = {
             year: 2013,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Lightsaber __ Saviour_spotdown.org.mp3',
-            albumCover: 'https://ia800305.us.archive.org/6/items/Yung_Lean_-_Unknown_Death_2002/cover.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -135,8 +126,7 @@ const SONGS_DATABASE = {
             year: 2013,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Princess Daisy_spotdown.org.mp3',
-            albumCover: 'https://ia800305.us.archive.org/6/items/Yung_Lean_-_Unknown_Death_2002/cover.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -147,8 +137,7 @@ const SONGS_DATABASE = {
             year: 2013,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Lemonade_spotdown.org.mp3',
-            albumCover: 'https://ia800305.us.archive.org/6/items/Yung_Lean_-_Unknown_Death_2002/cover.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -159,8 +148,7 @@ const SONGS_DATABASE = {
             year: 2013,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Emails_spotdown.org.mp3',
-            albumCover: 'https://ia800305.us.archive.org/6/items/Yung_Lean_-_Unknown_Death_2002/cover.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -171,8 +159,7 @@ const SONGS_DATABASE = {
             year: 2013,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Deathstar __ Getting Benjamins_spotdown.org.mp3',
-            albumCover: 'https://ia800305.us.archive.org/6/items/Yung_Lean_-_Unknown_Death_2002/cover.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -183,8 +170,7 @@ const SONGS_DATABASE = {
             year: 2013,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Heal You __ Bladerunner_spotdown.org.mp3',
-            albumCover: 'https://ia800305.us.archive.org/6/items/Yung_Lean_-_Unknown_Death_2002/cover.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -195,8 +181,7 @@ const SONGS_DATABASE = {
             year: 2013,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Solarflare_spotdown.org.mp3',
-            albumCover: 'https://ia800305.us.archive.org/6/items/Yung_Lean_-_Unknown_Death_2002/cover.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -208,8 +193,7 @@ const SONGS_DATABASE = {
             year: 2014,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Blinded_spotdown.org.mp3',
-            albumCover: 'https://archive.org/download/mbid-2f6fffcd-92a4-4d48-9518-b5e4c757c179/mbid-2f6fffcd-92a4-4d48-9518-b5e4c757c179-29542834817_itemimage.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -220,8 +204,7 @@ const SONGS_DATABASE = {
             year: 2014,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Sunrise Angel_spotdown.org.mp3',
-            albumCover: 'https://archive.org/download/mbid-2f6fffcd-92a4-4d48-9518-b5e4c757c179/mbid-2f6fffcd-92a4-4d48-9518-b5e4c757c179-29542834817_itemimage.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -232,8 +215,7 @@ const SONGS_DATABASE = {
             year: 2014,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Ice Cold Smoke_spotdown.org.mp3',
-            albumCover: 'https://archive.org/download/mbid-2f6fffcd-92a4-4d48-9518-b5e4c757c179/mbid-2f6fffcd-92a4-4d48-9518-b5e4c757c179-29542834817_itemimage.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -243,10 +225,7 @@ const SONGS_DATABASE = {
             album: 'Unknown Memory',
             year: 2014,
             difficulty: 'normal',
-            localAudioPath: "assets/audio/Don't Go_spotdown.org.mp3",
-            albumCover: 'https://archive.org/download/mbid-2f6fffcd-92a4-4d48-9518-b5e4c757c179/mbid-2f6fffcd-92a4-4d48-9518-b5e4c757c179-29542834817_itemimage.jpg',
-            chorusStart: 30,
-            isReleased: true,
+            localAudioPath: "assets/audio/Don't Go_spotdown.org.mp3",            isReleased: true,
             source: 'local'
         },
         {
@@ -256,8 +235,7 @@ const SONGS_DATABASE = {
             year: 2014,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Ghosttown_spotdown.org.mp3',
-            albumCover: 'https://archive.org/download/mbid-2f6fffcd-92a4-4d48-9518-b5e4c757c179/mbid-2f6fffcd-92a4-4d48-9518-b5e4c757c179-29542834817_itemimage.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -268,8 +246,7 @@ const SONGS_DATABASE = {
             year: 2014,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Monster_spotdown.org.mp3',
-            albumCover: 'https://archive.org/download/mbid-2f6fffcd-92a4-4d48-9518-b5e4c757c179/mbid-2f6fffcd-92a4-4d48-9518-b5e4c757c179-29542834817_itemimage.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -280,8 +257,7 @@ const SONGS_DATABASE = {
             year: 2014,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Volt_spotdown.org.mp3',
-            albumCover: 'https://archive.org/download/mbid-2f6fffcd-92a4-4d48-9518-b5e4c757c179/mbid-2f6fffcd-92a4-4d48-9518-b5e4c757c179-29542834817_itemimage.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -292,8 +268,7 @@ const SONGS_DATABASE = {
             year: 2014,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Leanworld_spotdown.org.mp3',
-            albumCover: 'https://archive.org/download/mbid-2f6fffcd-92a4-4d48-9518-b5e4c757c179/mbid-2f6fffcd-92a4-4d48-9518-b5e4c757c179-29542834817_itemimage.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -304,8 +279,7 @@ const SONGS_DATABASE = {
             year: 2014,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Sandman_spotdown.org.mp3',
-            albumCover: 'https://archive.org/download/mbid-2f6fffcd-92a4-4d48-9518-b5e4c757c179/mbid-2f6fffcd-92a4-4d48-9518-b5e4c757c179-29542834817_itemimage.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -317,8 +291,7 @@ const SONGS_DATABASE = {
             year: 2016,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Immortal_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/warlord.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -329,8 +302,7 @@ const SONGS_DATABASE = {
             year: 2016,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Highway Patrol_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/warlord.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -341,8 +313,7 @@ const SONGS_DATABASE = {
             year: 2016,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Fantasy_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/warlord.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -353,8 +324,7 @@ const SONGS_DATABASE = {
             year: 2016,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Afghanistan_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/warlord.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -365,8 +335,7 @@ const SONGS_DATABASE = {
             year: 2016,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Hoover_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/warlord.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -377,8 +346,7 @@ const SONGS_DATABASE = {
             year: 2016,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Fire_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/warlord.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -389,8 +357,7 @@ const SONGS_DATABASE = {
             year: 2016,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Stay Down_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/warlord.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -401,8 +368,7 @@ const SONGS_DATABASE = {
             year: 2016,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Eye Contact_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/warlord.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -413,8 +379,7 @@ const SONGS_DATABASE = {
             year: 2016,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/More Stacks_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/warlord.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -425,8 +390,7 @@ const SONGS_DATABASE = {
             year: 2016,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Af1s_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/warlord.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -437,8 +401,7 @@ const SONGS_DATABASE = {
             year: 2016,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Hocus Pocus_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/warlord.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -449,8 +412,7 @@ const SONGS_DATABASE = {
             year: 2016,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Shawty U Know What It Do_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/warlord.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -461,8 +423,7 @@ const SONGS_DATABASE = {
             year: 2016,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Miami Ultras_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/warlord.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -473,8 +434,7 @@ const SONGS_DATABASE = {
             year: 2016,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Sippin_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/warlord.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -485,8 +445,7 @@ const SONGS_DATABASE = {
             year: 2016,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/God Only Knows_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/warlord.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -497,8 +456,7 @@ const SONGS_DATABASE = {
             year: 2016,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/How U Like Me Now__spotdown.org.mp3',
-            albumCover: 'assets/images/albums/warlord.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -509,8 +467,7 @@ const SONGS_DATABASE = {
             year: 2016,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Pearl Fountain_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/warlord.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -521,8 +478,7 @@ const SONGS_DATABASE = {
             year: 2016,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Stars Align_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/warlord.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -533,8 +489,7 @@ const SONGS_DATABASE = {
             year: 2016,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Shine_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/warlord.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -546,8 +501,7 @@ const SONGS_DATABASE = {
             year: 2017,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Muddy Sea_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/stranger.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -558,8 +512,7 @@ const SONGS_DATABASE = {
             year: 2017,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Red Bottom Sky_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/stranger.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -570,8 +523,7 @@ const SONGS_DATABASE = {
             year: 2017,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Skimask_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/stranger.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -582,8 +534,7 @@ const SONGS_DATABASE = {
             year: 2017,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Silver Arrows_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/stranger.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -594,8 +545,7 @@ const SONGS_DATABASE = {
             year: 2017,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Metallic Intuition_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/stranger.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -606,8 +556,7 @@ const SONGS_DATABASE = {
             year: 2017,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Push _ Lost Weekend_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/stranger.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -618,8 +567,7 @@ const SONGS_DATABASE = {
             year: 2017,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Salute _ Pacman_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/stranger.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -630,8 +578,7 @@ const SONGS_DATABASE = {
             year: 2017,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Drop It _ Scooter_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/stranger.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -642,8 +589,7 @@ const SONGS_DATABASE = {
             year: 2017,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Hunting My Own Skin_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/stranger.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -654,8 +600,7 @@ const SONGS_DATABASE = {
             year: 2017,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Iceman_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/stranger.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -666,8 +611,7 @@ const SONGS_DATABASE = {
             year: 2017,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Snakeskin _ Bullets_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/stranger.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -678,8 +622,7 @@ const SONGS_DATABASE = {
             year: 2017,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Fallen Demon_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/stranger.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -690,8 +633,7 @@ const SONGS_DATABASE = {
             year: 2017,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Agony_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/stranger.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -702,8 +644,7 @@ const SONGS_DATABASE = {
             year: 2017,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Yellowman_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/stranger.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -715,8 +656,7 @@ const SONGS_DATABASE = {
             year: 2020,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/My Agenda_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/starz.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -727,8 +667,7 @@ const SONGS_DATABASE = {
             year: 2020,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Yayo_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/starz.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -739,8 +678,7 @@ const SONGS_DATABASE = {
             year: 2020,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Boylife in EU_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/starz.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -751,8 +689,7 @@ const SONGS_DATABASE = {
             year: 2020,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Violence_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/starz.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -763,8 +700,7 @@ const SONGS_DATABASE = {
             year: 2020,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Outta My Head_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/starz.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -775,8 +711,7 @@ const SONGS_DATABASE = {
             year: 2020,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Dance in the Dark_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/starz.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -787,8 +722,7 @@ const SONGS_DATABASE = {
             year: 2020,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Acid at 7_11_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/starz.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -799,8 +733,7 @@ const SONGS_DATABASE = {
             year: 2020,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Starz_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/starz.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -811,8 +744,7 @@ const SONGS_DATABASE = {
             year: 2020,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Hellraiser_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/starz.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -823,8 +755,7 @@ const SONGS_DATABASE = {
             year: 2020,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Butterfly Paralyzed_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/starz.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -835,8 +766,7 @@ const SONGS_DATABASE = {
             year: 2020,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Dogboy_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/starz.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -847,8 +777,7 @@ const SONGS_DATABASE = {
             year: 2020,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Iceheart_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/starz.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -859,8 +788,7 @@ const SONGS_DATABASE = {
             year: 2020,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Pikachu_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/starz.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -871,8 +799,7 @@ const SONGS_DATABASE = {
             year: 2020,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Low_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/starz.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -883,8 +810,7 @@ const SONGS_DATABASE = {
             year: 2020,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Sunset Sunrise_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/starz.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -895,8 +821,7 @@ const SONGS_DATABASE = {
             year: 2020,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Put Me in a Spell_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/starz.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -908,8 +833,7 @@ const SONGS_DATABASE = {
             year: 2024,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Coda_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/psykos.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -920,8 +844,7 @@ const SONGS_DATABASE = {
             year: 2024,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Ghosts_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/psykos.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -932,8 +855,7 @@ const SONGS_DATABASE = {
             year: 2024,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Golden God_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/psykos.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -944,8 +866,7 @@ const SONGS_DATABASE = {
             year: 2024,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Still_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/psykos.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -956,8 +877,7 @@ const SONGS_DATABASE = {
             year: 2024,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Sold Out_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/psykos.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -968,8 +888,7 @@ const SONGS_DATABASE = {
             year: 2024,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Hanging From The Bridge_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/psykos.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -980,8 +899,7 @@ const SONGS_DATABASE = {
             year: 2024,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Enemy_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/psykos.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -992,8 +910,7 @@ const SONGS_DATABASE = {
             year: 2024,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Things Happen_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/psykos.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1005,8 +922,7 @@ const SONGS_DATABASE = {
             year: 2025,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Might Not B_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/jonatan.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1017,8 +933,7 @@ const SONGS_DATABASE = {
             year: 2025,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Forever Yung_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/jonatan.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1029,8 +944,7 @@ const SONGS_DATABASE = {
             year: 2025,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Horses_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/jonatan.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1041,8 +955,7 @@ const SONGS_DATABASE = {
             year: 2025,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Paranoid Paparazzi_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/jonatan.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1053,8 +966,7 @@ const SONGS_DATABASE = {
             year: 2025,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Babyface Maniacs_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/jonatan.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1064,10 +976,7 @@ const SONGS_DATABASE = {
             album: 'Jonatan',
             year: 2025,
             difficulty: 'normal',
-            localAudioPath: "assets/audio/I'm Your Dirt, I'm Your Love_spotdown.org.mp3",
-            albumCover: 'assets/images/albums/jonatan.jpg',
-            chorusStart: 30,
-            isReleased: true,
+            localAudioPath: "assets/audio/I'm Your Dirt, I'm Your Love_spotdown.org.mp3",            isReleased: true,
             source: 'local'
         },
         {
@@ -1077,8 +986,7 @@ const SONGS_DATABASE = {
             year: 2025,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Teenage Symphonies 4 God (God Will Only)_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/jonatan.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1089,8 +997,7 @@ const SONGS_DATABASE = {
             year: 2025,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Changes_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/jonatan.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1101,8 +1008,7 @@ const SONGS_DATABASE = {
             year: 2025,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/My Life_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/jonatan.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1113,8 +1019,7 @@ const SONGS_DATABASE = {
             year: 2025,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Swan Song_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/jonatan.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1125,8 +1030,7 @@ const SONGS_DATABASE = {
             year: 2025,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Terminator Symphony_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/jonatan.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1137,8 +1041,7 @@ const SONGS_DATABASE = {
             year: 2025,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Lessons from Above_spotdown.org.mp3',
-            albumCover: 'assets/images/albums/jonatan.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1150,8 +1053,7 @@ const SONGS_DATABASE = {
             year: 2013,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Oreomilkshake_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1162,8 +1064,7 @@ const SONGS_DATABASE = {
             year: 2013,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Greygoose_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1174,8 +1075,7 @@ const SONGS_DATABASE = {
             year: 2013,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Marble Phone_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1186,8 +1086,7 @@ const SONGS_DATABASE = {
             year: 2014,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/King Cobra_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1198,8 +1097,7 @@ const SONGS_DATABASE = {
             year: 2014,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Crash Bandicoot_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1210,8 +1108,7 @@ const SONGS_DATABASE = {
             year: 2014,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Ghostface _ Shyguy_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1222,8 +1119,7 @@ const SONGS_DATABASE = {
             year: 2015,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Like Me_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1234,8 +1130,7 @@ const SONGS_DATABASE = {
             year: 2015,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Red Velvet_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1246,8 +1141,7 @@ const SONGS_DATABASE = {
             year: 2015,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Creep Creeps_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1258,8 +1152,7 @@ const SONGS_DATABASE = {
             year: 2015,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/2 Cups_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1270,8 +1163,7 @@ const SONGS_DATABASE = {
             year: 2015,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Smirnoff Ice_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1282,8 +1174,7 @@ const SONGS_DATABASE = {
             year: 2015,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/First Class_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1294,8 +1185,7 @@ const SONGS_DATABASE = {
             year: 2015,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Blue Plastic_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1306,8 +1196,7 @@ const SONGS_DATABASE = {
             year: 2015,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Opium Dreams_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1318,8 +1207,7 @@ const SONGS_DATABASE = {
             year: 2015,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Lazy Summer Day_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1330,8 +1218,7 @@ const SONGS_DATABASE = {
             year: 2015,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Chinese Restaurant_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1342,8 +1229,7 @@ const SONGS_DATABASE = {
             year: 2015,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/True Love_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1354,8 +1240,7 @@ const SONGS_DATABASE = {
             year: 2015,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Victorious_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1366,8 +1251,7 @@ const SONGS_DATABASE = {
             year: 2016,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Bullets_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1378,8 +1262,7 @@ const SONGS_DATABASE = {
             year: 2016,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Violent Lullaby (with Yung Lean)_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1390,8 +1273,7 @@ const SONGS_DATABASE = {
             year: 2016,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/SPIRIT OF THUNDER_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1402,8 +1284,7 @@ const SONGS_DATABASE = {
             year: 2016,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Shadowboxing_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1414,8 +1295,7 @@ const SONGS_DATABASE = {
             year: 2024,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/360 featuring robyn & yung lean_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1426,8 +1306,7 @@ const SONGS_DATABASE = {
             year: 2017,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Inferno_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1438,8 +1317,7 @@ const SONGS_DATABASE = {
             year: 2017,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Evil World_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1450,8 +1328,7 @@ const SONGS_DATABASE = {
             year: 2017,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Advent_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1462,8 +1339,7 @@ const SONGS_DATABASE = {
             year: 2018,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Back at It_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1474,8 +1350,7 @@ const SONGS_DATABASE = {
             year: 2018,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Hop Out_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1486,8 +1361,7 @@ const SONGS_DATABASE = {
             year: 2013,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Hennessy & Sailor Moon_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1498,8 +1372,7 @@ const SONGS_DATABASE = {
             year: 2018,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Cashin_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1510,8 +1383,7 @@ const SONGS_DATABASE = {
             year: 2018,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Crystal City_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1522,8 +1394,7 @@ const SONGS_DATABASE = {
             year: 2018,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Kirby_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1534,8 +1405,7 @@ const SONGS_DATABASE = {
             year: 2018,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Head 2 Toe_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1546,8 +1416,7 @@ const SONGS_DATABASE = {
             year: 2018,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Get It Back_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1558,8 +1427,7 @@ const SONGS_DATABASE = {
             year: 2019,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/happy feet_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1570,8 +1438,7 @@ const SONGS_DATABASE = {
             year: 2019,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/friday the 13th_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1582,8 +1449,7 @@ const SONGS_DATABASE = {
             year: 2019,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/french hotel_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1594,8 +1460,7 @@ const SONGS_DATABASE = {
             year: 2019,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/silicon wings_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1606,8 +1471,7 @@ const SONGS_DATABASE = {
             year: 2019,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/ropeman_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1618,8 +1482,7 @@ const SONGS_DATABASE = {
             year: 2019,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/trashy_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1630,8 +1493,7 @@ const SONGS_DATABASE = {
             year: 2019,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/sauron_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1642,8 +1504,7 @@ const SONGS_DATABASE = {
             year: 2019,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/bender++girlfriend_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1654,8 +1515,7 @@ const SONGS_DATABASE = {
             year: 2020,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Starz2theRainbow_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1666,8 +1526,7 @@ const SONGS_DATABASE = {
             year: 2021,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/All the things_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1678,8 +1537,7 @@ const SONGS_DATABASE = {
             year: 2021,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Bliss_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1690,8 +1548,7 @@ const SONGS_DATABASE = {
             year: 2021,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Diamonds_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1702,8 +1559,7 @@ const SONGS_DATABASE = {
             year: 2021,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Gold_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1713,10 +1569,7 @@ const SONGS_DATABASE = {
             album: 'Singles & Rarities',
             year: 2021,
             difficulty: 'normal',
-            localAudioPath: 'assets/audio/Its Sad Boy (feat. Yung Lean)_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
-            isReleased: true,
+            localAudioPath: 'assets/audio/Its Sad Boy (feat. Yung Lean)_spotdown.org.mp3',            isReleased: true,
             source: 'local'
         },
         {
@@ -1726,8 +1579,7 @@ const SONGS_DATABASE = {
             year: 2021,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Letting it all go_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1738,8 +1590,7 @@ const SONGS_DATABASE = {
             year: 2021,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Lips_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1750,8 +1601,7 @@ const SONGS_DATABASE = {
             year: 2021,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Nobody else_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1762,8 +1612,7 @@ const SONGS_DATABASE = {
             year: 2021,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Paradise Lost_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1774,8 +1623,7 @@ const SONGS_DATABASE = {
             year: 2021,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/PARASAIL (feat. Yung Lean & Dave Chappelle)_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1786,8 +1634,7 @@ const SONGS_DATABASE = {
             year: 2021,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/SummerTime Blood_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1798,8 +1645,7 @@ const SONGS_DATABASE = {
             year: 2021,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Trip_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         },
@@ -1810,8 +1656,7 @@ const SONGS_DATABASE = {
             year: 2021,
             difficulty: 'normal',
             localAudioPath: 'assets/audio/Waterfall_spotdown.org.mp3',
-            albumCover: 'https://placeholder.com/singles.jpg',
-            chorusStart: 30,
+            chorusStart: 40,
             isReleased: true,
             source: 'local'
         }
@@ -1828,6 +1673,7 @@ const SONGS_DATABASE = {
             year: 2013,
             difficulty: 'hardcore',
             localAudioPath: 'assets/audio/hardcore/oceans_2001.mp3',
+            chorusStart: 40,
             isReleased: false,
             source: 'youtube'
         },
@@ -1838,6 +1684,7 @@ const SONGS_DATABASE = {
             year: 2013,
             difficulty: 'hardcore',
             localAudioPath: 'assets/audio/hardcore/motorola.mp3',
+            chorusStart: 40,
             isReleased: false,
             source: 'youtube'
         },
@@ -1848,6 +1695,7 @@ const SONGS_DATABASE = {
             year: 2014,
             difficulty: 'hardcore',
             localAudioPath: 'assets/audio/hardcore/emails.mp3',
+            chorusStart: 40,
             isReleased: false,
             source: 'soundcloud'
         },
@@ -1858,6 +1706,7 @@ const SONGS_DATABASE = {
             year: 2013,
             difficulty: 'hardcore',
             localAudioPath: 'assets/audio/hardcore/hennessy_sailor_moon.mp3',
+            chorusStart: 40,
             isReleased: false,
             source: 'youtube'
         },
@@ -1868,6 +1717,7 @@ const SONGS_DATABASE = {
             year: 2014,
             difficulty: 'hardcore',
             localAudioPath: 'assets/audio/hardcore/plastic_boy.mp3',
+            chorusStart: 40,
             isReleased: false,
             source: 'soundcloud'
         }
