@@ -9,6 +9,7 @@ class AudioPlayer {
         this.currentSong = null;
         this.isPlaying = false;
         this.playDuration = 10; // 10 seconds for quiz
+        this.stopTimeout = null; // Track timeout to clear it
     }
 
     /**
@@ -52,8 +53,8 @@ class AudioPlayer {
                 const timeout = setTimeout(() => {
                     this.audioElement.removeEventListener('canplaythrough', onReady);
                     this.audioElement.removeEventListener('error', onError);
-                    reject(new Error('Audio failed to load within 5 seconds'));
-                }, 5000); // 5 second timeout
+                    reject(new Error('Audio failed to load within 15 seconds'));
+                }, 15000); // 15 second timeout (increased from 5)
 
                 const onReady = () => {
                     clearTimeout(timeout);
@@ -103,18 +104,29 @@ class AudioPlayer {
                 console.log('   Current time before play:', this.audioElement.currentTime);
                 console.log('   Will play for:', this.playDuration, 'seconds');
 
-                const playStartTime = Date.now();
                 await this.audioElement.play();
                 this.isPlaying = true;
                 console.log('▶️ Playing audio - YOU SHOULD HEAR SOUND NOW!');
-                console.log('⏰ Audio will stop after', this.playDuration, 'seconds');
 
-                // Stop after playDuration seconds
-                setTimeout(() => {
-                    const actualPlayTime = (Date.now() - playStartTime) / 1000;
-                    console.log('⏹️ Stopping audio after', actualPlayTime.toFixed(2), 'seconds');
-                    this.stop();
-                }, this.playDuration * 1000);
+                // Clear any previous timeout
+                if (this.stopTimeout) {
+                    clearTimeout(this.stopTimeout);
+                    console.log('🗑️ Cleared previous timeout');
+                }
+
+                // Wait for audio to ACTUALLY start playing before starting timeout
+                this.audioElement.addEventListener('playing', () => {
+                    const playStartTime = Date.now();
+                    console.log('⏰ Audio started playing, will stop after', this.playDuration, 'seconds');
+
+                    // Stop after playDuration seconds
+                    this.stopTimeout = setTimeout(() => {
+                        const actualPlayTime = (Date.now() - playStartTime) / 1000;
+                        console.log('⏹️ Stopping audio after', actualPlayTime.toFixed(2), 'seconds');
+                        this.stop();
+                        this.stopTimeout = null;
+                    }, this.playDuration * 1000);
+                }, { once: true });
 
                 return true;
             } catch (playError) {
@@ -133,6 +145,10 @@ class AudioPlayer {
      * Stop audio playback
      */
     stop() {
+        if (this.stopTimeout) {
+            clearTimeout(this.stopTimeout);
+            this.stopTimeout = null;
+        }
         this.audioElement.pause();
         this.audioElement.currentTime = 0;
         this.isPlaying = false;

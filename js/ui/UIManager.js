@@ -65,8 +65,12 @@ class UIManager {
             // Add album cover image
             const img = document.createElement('img');
             img.className = 'answer-album-cover';
-            img.src = answer.song.albumCover || 'assets/images/placeholder.jpg';
+            img.src = answer.song.albumCover || ''; // Empty if no cover
             img.alt = answer.text;
+            img.onerror = () => {
+                // Hide image if it fails to load
+                img.style.display = 'none';
+            };
 
             // Add song title
             const title = document.createElement('div');
